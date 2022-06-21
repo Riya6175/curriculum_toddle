@@ -1,0 +1,102 @@
+
+.child{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    height: 40px;
+}
+
+.child > *{
+    flex: 0 0 5%;
+}
+hr{
+    color: #606060;
+    width: 100%;
+    margin-left: 10%;
+    margin: 0em;
+}
+
+.icons{
+    display: flex;
+    color: #dfdfdf;
+    font-size: larger;
+}
+
+.icons > * :hover{
+    color: #525252;
+}
+
+.box{
+    min-width:8px;
+    content: "";
+    min-height: 100%;
+    background-color:#f9f9f9;
+    height: 40px;
+    margin-left: 10%;
+}
+
+.box-child{
+    min-width:6px;
+    content: "";
+    min-height: 100%;
+    background-color:#f6f6f6;
+    height: 40px;
+    margin-left: 12%;
+}
+.box-child2{
+    min-width:6px;
+    content: "";
+    min-height: 100%;
+    background-color:#f5f5f5;
+    height: 40px;
+    margin-left: 14%;
+}
+.Topic{
+    width: 2000%;
+    border: 0px solid #ccc;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    margin-left: 180%;
+    height: 40px;
+    min-height: 100%;
+    font-size: 1rem;
+    color: #43d4d8;
+    font-weight: 700;
+  }
+
+  .topic_child{
+    width: 2000%;
+    border: 0px solid #ccc;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    margin-left: 180%;
+    height: 40px;
+    min-height: 100%;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 800;
+  }
+
+  .topic_subchild{
+    width: 2000%;
+    border: 0px solid #ccc;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    margin-left: 190%;
+    height: 40px;
+    min-height: 100%;
+    font-size: 0.8rem;
+    color: #c2c2c2;
+    font-weight: 700;
+  }
+
+
+ 
